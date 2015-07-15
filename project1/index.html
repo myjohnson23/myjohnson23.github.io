@@ -2,31 +2,41 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Intimate Moments Catering</title>
-    <!-- add stylesheet -->
+    <title>Itimate Moments Catering</title>
     <link rel="stylesheet" href="style/style.css">
-
-    <!-- add scripts -->
-    <script src="scripts/jquery.js"></script>
-    <script src="scripts/app.js"></script>
-
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/app.js"></script>
   </head>
   <body>
+    <header class="header">
+      <img src="" alt="" />
+      <h1>Intimate Moments Catering</h1>
+    </header>
+    <div class="wrapper">
 
-    <h3>Contact Me!</h3>
+      <nav class="nav">
+        <ul>
+          <li id="home-nav"><p>Home</p></li>
+          <li id="about-nav"><p>About</p></li>
+          <li id="photos-nav"><p>Photos</p></li>
+          <li id="contact-nav"><p>Contact</p></li>
+        </ul>
+      </nav>
+      <content class="content">
+      <img src="./images/imc9.jpeg" alt="content" />
+      <h2>Catering Basics</h2>
+      </content>
+      <!-- <div class="home-content">home</div>
+      <div class="about-content">about</div>
+      <div class="photos-content">photos</div>
+      <div class="contact-content cf">contact</div> -->
+      <aside class="tip-aside">tip</aside>
+      <aside class="photos-aside">photos</aside>
+      <aside class="contact-aside">contact</aside>
+    </div>
 
-    <input type="text" id="user_name" placeholder="Please enter your First Name and Last Name">
-    <input type="email" id="user_email" placeholder="Please enter your email address">
-    <input type="text" id="user_telephone" placeholder="Please enter your telephone number including area code">
-    <input type="text" id="event_date" placeholder="Enter the date of your event">
-    <input type="text" id="event_type" placeholder="Enter what type of event you are having">
-    <input type="text" id="event_size" placeholder="Enter the number of people attending">
-    <input type="text" id="user_request" placeholder="How can we assist you....?">
-
-    <input type="submit" id="form_send" value="Contact us now!">
 
 
-
-
+    <footer class="footer cf">&copy 2015 Myron Johnson</footer>
   </body>
 </html>
