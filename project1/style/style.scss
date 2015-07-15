@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgba(255,255,255,1);
-  background-image: url("../images/imc11.gif");
+  background-image: url("../images/imc11 copy.png");
   background-repeat: repeat;
 }
 
@@ -150,6 +150,12 @@ li {
   // top: 25%;
   // left: 25%;
   visibility: hidden;
+}
+
+.float-wrapper {
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
 
 .tip-aside {
