@@ -1,7 +1,9 @@
+@import 'variables.scss';
+
 body {
+  font-size: $base-page-size;
   margin: 0;
   padding: 0;
-  background-color: rgba(255,255,255,1);
   background-image: url("../images/imc11 copy.png");
   background-repeat: repeat;
 }
@@ -17,14 +19,38 @@ body {
 
 
 .wrapper {
-  width: 90%;
+  width: $wrapper-phone;
   margin: 0 auto;
+  padding: 0;
+
+
+  .header {
+    background-color: $header-background;
+    box-shadow: 10px 10px 0 0 rgba(0,0,0,.5);
+    -webkit-box-shadow: 10px 10px 0 0 rgba(0,0,0,.5);
+    -moz-box-shadow: 10px 10px 0 0 rgba(0,0,0,.5);
+  }
+
+  #logo {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    display: inline;
+    top:-10px;
+    left: 2%;
+  }
+
+  h1 {
+    font-size: $font-size-headline;
+    color: $header-text;
+    display: inline;
+    top: 10px;
+  }
 }
 
 .header {
   width: 100%;
   height: 100px;
-
   margin: 0 auto;
   margin-bottom: 20px;
   background-color: rgba(241,136,5,1);
@@ -153,8 +179,9 @@ li {
 }
 
 .float-wrapper {
-  margin: 0;
+  margin: auto auto;
   padding: 0;
+  height: 350px;
   position: relative;
 }
 
@@ -198,7 +225,7 @@ li {
 .footer {
   width: 100%;
   height: 100px;
-  position: fixed;
+  position: relative;
   bottom: 0;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -206,4 +233,18 @@ li {
   box-shadow: 0 0 10px 10px rgba(0,0,0,.5);
   -webkit-box-shadow: 0 0 10px 10px rgba(0,0,0,.5);
   -moz-box-shadow: 0 0 10px 10px rgba(0,0,0,.5);
+}
+
+
+@media (min-width: $device-phone) {
+  .wrapper {
+    display: block;
+  }
+}
+
+@media (min-width: $device-laptop) {
+  .wrapper {
+    display: block;
+    width: $wrapper-laptop;
+  }
 }
