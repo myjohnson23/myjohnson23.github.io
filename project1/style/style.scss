@@ -167,6 +167,7 @@ body {
   position: relative;
   float: right;
   margin: 0px 0px 50px 0px;
+  display: none;
 }
 
 .photos-content {
@@ -175,6 +176,7 @@ body {
   position: relative;
   float: right;
   margin: 0px 0px 50px 0px;
+  display: none;
 }
 
 .contact-content {
@@ -183,6 +185,12 @@ body {
   position: relative;
   float: right;
   margin: 0px 0px 50px 0px;
+  display: none;
+
+    #user_name, #user_email, #user_telephone, #event_date, #event_type, #event_size, #user_request {
+      width: 400px;
+      display: block;
+    }
 }
 
 .float-wrapper {
