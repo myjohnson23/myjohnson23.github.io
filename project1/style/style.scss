@@ -86,7 +86,7 @@ body {
 
   }
     #home-nav {
-      background-color: $nav-background;
+      background-color: green;
       border-right: 2px solid rgba(0,0,0,1);
     }
     #about-nav {
@@ -130,66 +130,59 @@ body {
 
 .content-text {
     display: inline-block;
-    width: 58%;
     height: 400px;
     margin: 0px 0px 50px 0px;
-    padding: 10px 10px 10px 10px;
+    // padding: 10px 10px 10px 10px;
     float: right;
+    padding: 5px 5px 5px 5px;
 }
 
     h2 {
-      position: absolute;
+      position: relative;
+      display: inline-block;
       width: 700px;
-      height: 400px;
-      top: 0px;
       color: $content-text;
       font-family: 'IM Fell French Canon', serif;
     }
 
     p {
       font-size: $font-size-standard;
-      position: absolute;
-      width: 700px;
-      height: 400px;
+      position: relative;
       top: 40px;
       color: $content-text;
     }
 }
 
 .home-content {
-  width: 70%;
-  height: 500px;
-  position: absolute;
-  top: 30%;
-  left: 25%;
-  display: none;
+  width: 60%;
+  height: 400px;
+  position: relative;
+  float: right;
+  margin: 0px 0px 50px 0px;
 }
 
 .about-content {
-  width: 70%;
-  height: 500px;
-  position: absolute;
-  top: 30%;
-  left: 25%;
-  display: none;
+  width: 60%;
+  height: 400px;
+  position: relative;
+  float: right;
+  margin: 0px 0px 50px 0px;
 }
 
 .photos-content {
-  width: 70%;
-  height: 500px;
-  position: absolute;
-  top: 30%;
-  left: 25%;
-  display: none;
+  width: 60%;
+  height: 400px;
+  position: relative;
+  float: right;
+  margin: 0px 0px 50px 0px;
 }
 
 .contact-content {
-  width: 75%;
-  height: 500px;
-  position: absolute;
-  top: 25%;
-  left: 25%;
-  display: none;
+  width: 60%;
+  height: 400px;
+  position: relative;
+  float: right;
+  margin: 0px 0px 50px 0px;
 }
 
 .float-wrapper {

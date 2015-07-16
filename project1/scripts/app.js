@@ -18,7 +18,43 @@ $(document).ready(function() {
 
   });
 
+  // Change Navigation
 
+  $('#home-nav').on('mouseover', function () {
+    $('#home-nav').css('background-color', 'green');
+    $('#about-nav').css('background-color', 'blue');
+    $('#photos-nav').css('background-color', 'blue');
+    $('#contact-nav').css('background-color', 'blue');
+    $('.home-content').css('display', 'block');
+    $('.about-content, .photos-content, .contact-content').css('display', 'none');
+  });
+
+  $('#about-nav').on('mouseover', function () {
+    $('#about-nav').css('background-color', 'green');
+    $('#home-nav').css('background-color', 'blue');
+    $('#photos-nav').css('background-color', 'blue');
+    $('#contact-nav').css('background-color', 'blue');
+    $('.about-content').css('display', 'block');
+    $('.home-content, .photos-content, .contact-content').css('display', 'none');
+  });
+
+  $('#photos-nav').on('mouseover', function () {
+    $('#photos-nav').css('background-color', 'green');
+    $('#home-nav').css('background-color', 'blue');
+    $('#about-nav').css('background-color', 'blue');
+    $('#contact-nav').css('background-color', 'blue');
+    $('.photos-content').css('display', 'block');
+    $('.home-content, .about-content, .contact-content').css('display', 'none');
+  });
+
+  $('#contact-nav').on('mouseover', function () {
+    $('#contact-nav').css('background-color', 'green');
+    $('#home-nav').css('background-color', 'blue');
+    $('#photos-nav').css('background-color', 'blue');
+    $('#about-nav').css('background-color', 'blue');
+    $('.contact-content').css('display', 'block');
+    $('.home-content, .photos-content, .about-content').css('display', 'none');
+  });
 });
 
 // Namespacing
