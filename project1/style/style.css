@@ -168,7 +168,7 @@ body {
       font-size: .8rem; }
 
   .content-wrapper {
-    height: 15rem;
+    height: 20rem;
     margin: 0 0 .125rem 0;
     position: relative;
     border-radius: 1.25rem; }
@@ -221,7 +221,8 @@ body {
       display: block; }
 
   .float-wrapper {
-    position: relative; }
+    position: relative;
+    margin: 40px 0 10px 0; }
 
   .tip-aside {
     background-color: rgba(45, 125, 210, 0.5);
