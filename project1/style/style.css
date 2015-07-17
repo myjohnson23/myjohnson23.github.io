@@ -203,6 +203,9 @@ body {
     margin: 0 0 3.125rem 0;
     display: none; }
 
+  .about-list {
+    color: white; }
+
   .photos-content {
     position: absolute;
     top: 1px;
