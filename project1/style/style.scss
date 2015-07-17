@@ -226,9 +226,9 @@ body {
     }
     li {
       margin: 0;
-      width: 6rem;
-      height: 6rem;
-      border-radius: 1.25rem;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 12px;
       font-size: .8rem;
     }
   }
@@ -270,7 +270,6 @@ body {
     position: absolute;
     top: 1px;
     margin: 0 0 3.125rem 0;
-    float: none;
   }
 
   .about-content {
@@ -278,7 +277,6 @@ body {
     top: 1px;
     margin: 0 0 3.125rem 0;
     display: none;
-    float: none;
   }
 
   .photos-content {
@@ -286,16 +284,15 @@ body {
     top: 1px;
     margin: 0 0 3.125rem 0;
     display: none;
-    float: none;
   }
 
   .contact-content {
     position: absolute;
-    top: -.5rem;
-    left: .8rem;
-    margin: 0 0 3.125rem 0;
+    top: 17px;
+    left: 2px;
+    margin: 0;
     display: none;
-    float: none;
+    padding: 7px;
 
       #user_name, #user_email, #user_telephone, #event_date, #event_type, #event_size, #user_request {
         width: 16rem;

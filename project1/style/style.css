@@ -162,9 +162,9 @@ body {
       width: 15rem; }
     .nav li {
       margin: 0;
-      width: 6rem;
-      height: 6rem;
-      border-radius: 1.25rem;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 12px;
       font-size: .8rem; }
 
   .content-wrapper {
@@ -195,30 +195,27 @@ body {
   .home-content {
     position: absolute;
     top: 1px;
-    margin: 0 0 3.125rem 0;
-    float: none; }
+    margin: 0 0 3.125rem 0; }
 
   .about-content {
     position: absolute;
     top: 1px;
     margin: 0 0 3.125rem 0;
-    display: none;
-    float: none; }
+    display: none; }
 
   .photos-content {
     position: absolute;
     top: 1px;
     margin: 0 0 3.125rem 0;
-    display: none;
-    float: none; }
+    display: none; }
 
   .contact-content {
     position: absolute;
-    top: -.5rem;
-    left: .8rem;
-    margin: 0 0 3.125rem 0;
+    top: 17px;
+    left: 2px;
+    margin: 0;
     display: none;
-    float: none; }
+    padding: 7px; }
     .contact-content #user_name, .contact-content #user_email, .contact-content #user_telephone, .contact-content #event_date, .contact-content #event_type, .contact-content #event_size, .contact-content #user_request {
       width: 16rem;
       display: block; }
