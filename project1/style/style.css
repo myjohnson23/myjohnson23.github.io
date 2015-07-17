@@ -42,7 +42,7 @@ body {
     .wrapper .nav li p {
       color: white; }
   .wrapper .nav #home-nav {
-    background-color: green;
+    background-color: #44cf6c;
     border-right: 2px solid black; }
   .wrapper .nav #about-nav {
     background-color: #2d7dd2;
@@ -282,15 +282,18 @@ body {
     top: -5.75rem;
     left: 15%; }
 
-  .nav ul {
-    margin: 0; }
-  .nav li {
-    display: inline-block;
-    margin: auto;
-    width: 20%;
-    height: 3.75rem;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px; }
+  .nav {
+    margin: 0 0 0 440px;
+    padding: 0 0 0 115px; }
+    .nav ul {
+      margin: 0; }
+    .nav li {
+      display: inline-block;
+      margin: auto;
+      width: 20%;
+      height: 3.75rem;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px; }
 
   .content-wrapper {
     display: block;
