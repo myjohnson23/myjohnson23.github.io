@@ -128,7 +128,7 @@ body {
     font-size: 0.75rem;
     color: white; }
 
-@media (max-width: 420px) {
+@media (max-width: 520px) {
   .wrapper {
     display: block;
     width: 85%; }
@@ -257,7 +257,7 @@ body {
     position: fixed;
     width: 85%;
     bottom: 0; } }
-@media (min-width: 421px) {
+@media (min-width: 521px) {
   .wrapper {
     display: block;
     width: 1200px; }
