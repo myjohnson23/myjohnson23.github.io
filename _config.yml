@@ -1,0 +1,12 @@
+# Site settings
+title: Myron Johnson's Portfolio
+email: myjohnson@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  General Assembly Class projects
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://you.github.io" # the base hostname & protocol for your site
+twitter_username: myjohnson23
+github_username:  myjohnson23
+
+# Build settings
+markdown: kramdown

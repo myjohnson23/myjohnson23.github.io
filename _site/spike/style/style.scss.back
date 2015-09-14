@@ -1,0 +1,455 @@
+@import 'variables.scss';
+
+body {
+  font-size: $base-page-size;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/imc11 copy.png");
+  background-repeat: repeat;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-family: 'Cuprum', sans-serif;
+}
+
+.cf:before,.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.wrapper {
+  width: $wrapper-phone;
+  margin: 0 auto;
+  padding: 0;
+
+
+  .header {
+    height: 200px;
+    background-color: $header-background;
+    box-shadow: $box-shadow-bottom;
+    -webkit-box-shadow: $box-shadow-bottom;
+    -moz-box-shadow: $box-shadow-bottom;
+    margin-bottom: 25px;
+    border-radius: $border-radius;
+    font-family: 'IM Fell French Canon', serif;
+  }
+
+  #logo {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    left: 1%;
+    margin: 0;
+  }
+
+  h1 {
+    height: 100px;
+    text-align: center;
+    font-size: $font-size-headline;
+    color: $header-text;
+    display: inline-block;
+    top: -92px;
+    left: 15%;
+    position: relative;
+    margin: 0;
+  }
+
+
+.nav {
+  ul {
+    list-style: none;
+    position: relative;
+    left: 16%;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    width: 20%;
+    height: 60px;
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+    p {
+      font-size: 20px;
+      color: white;
+    }
+
+  }
+    #home-nav {
+      background-color: green;
+      border-right: 2px solid rgba(0,0,0,1);
+    }
+    #about-nav {
+      background-color: $nav-background;
+      border-right: 2px solid rgba(0,0,0,1);
+    }
+    #photos-nav {
+      background-color: $nav-background;
+      border-right: 2px solid rgba(0,0,0,1);
+    }
+    #contact-nav {
+      background-color: $nav-background;
+    }
+
+}
+}
+
+
+
+.content-wrapper {
+  display: block;
+  width: 100%;
+  height: 400px;
+  margin: 0px 0px 50px 0px;
+  background-color: rgba(68,207,108,1);
+  position: relative;
+  border-radius: 20px;
+  box-shadow: $box-shadow-bottom;
+  -webkit-box-shadow: $box-shadow-bottom;
+  -moz-box-shadow: $box-shadow-bottom;
+
+  img {
+    display: inline-block;
+    width: 40%;
+    height: 400px;
+    margin: 0px 0px 50px 0px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    float: left;
+  }
+
+.content-text {
+    display: inline-block;
+    height: 400px;
+    margin: 0px 0px 50px 0px;
+    // padding: 10px 10px 10px 10px;
+    float: right;
+    padding: 5px 5px 5px 5px;
+}
+
+    h2 {
+      position: relative;
+      display: inline-block;
+      width: 700px;
+      color: $content-text;
+      font-family: 'IM Fell French Canon', serif;
+    }
+
+    p {
+      font-size: $font-size-standard;
+      position: relative;
+      top: 40px;
+      color: $content-text;
+    }
+}
+
+.home-content {
+  width: 60%;
+  height: 400px;
+  position: relative;
+  float: right;
+  margin: 0px 0px 50px 0px;
+}
+
+.about-content {
+  width: 60%;
+  height: 400px;
+  position: relative;
+  float: right;
+  margin: 0px 0px 50px 0px;
+  display: none;
+}
+
+.photos-content {
+  width: 60%;
+  height: 400px;
+  position: relative;
+  float: right;
+  margin: 0px 0px 50px 0px;
+  display: none;
+}
+
+.contact-content {
+  width: 60%;
+  height: 400px;
+  position: relative;
+  float: right;
+  margin: 0px 0px 50px 0px;
+  display: none;
+
+    #user_name, #user_email, #user_telephone, #event_date, #event_type, #event_size, #user_request {
+      width: 400px;
+      display: block;
+    }
+}
+
+.float-wrapper {
+  margin: 0 auto;
+  padding: 0;
+  height: 300px;
+  position: relative;
+  clear: right;
+}
+
+.tip-aside {
+  width: 30.5%;
+  height: 250px;
+  float: left;
+  margin-right: 1.5%;
+  background-color: rgba(45,125,210,.5);
+  border-radius: 20px;
+  box-shadow: $box-shadow-bottom;
+  -webkit-box-shadow: $box-shadow-bottom;
+  -moz-box-shadow: $box-shadow-bottom;
+
+  img {
+    height: 250px;
+    border-radius: $border-radius;
+    border: 2px solid black;
+  }
+}
+
+.photos-aside {
+  width: 30.5%;
+  height: 250px;
+  float: left;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  background-color: rgba(45,125,210,.5);
+  border-radius: 20px;
+  box-shadow: $box-shadow-bottom;
+  -webkit-box-shadow: $box-shadow-bottom;
+  -moz-box-shadow: $box-shadow-bottom;
+
+    img {
+      height: 250px;
+      border-radius: $border-radius;
+      border: 2px solid black;
+    }
+}
+
+
+.contact-aside {
+  width: 30.5%;
+  height: 250px;
+  float: left;
+  margin-left: 1.5%;
+  background-color: rgba(45,125,210,.5);
+  border-radius: 20px;
+  box-shadow: $box-shadow-bottom;
+  -webkit-box-shadow: $box-shadow-bottom;
+  -moz-box-shadow: $box-shadow-bottom;
+
+    img {
+      height: 250px;
+      border-radius: $border-radius;
+      border: 2px solid black;
+    }
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: rgba(241,136,5,1);
+  box-shadow: $box-shadow-top;
+  -webkit-box-shadow: $box-shadow-top;
+  -moz-box-shadow: $box-shadow-top;
+  p {
+    font-size: $font-size-subtext;
+    color: $footer-text;
+  }
+
+}
+
+
+@media (min-width: 280px) and (max-width: 380px) {
+  .wrapper {
+    display: block;
+    // width: $wrapper-phone;
+  }
+  .header {
+    height: 100px;
+    margin: 5px 5px 5px 5px;
+    background-color: $header-background;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    margin-bottom: 5px 5px 5px 5px;
+    border-radius: $border-radius;
+    // font-family: 'IM Fell French Canon', serif;
+  }
+  #logo {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    display: block;
+  }
+  h1 {
+    width: 169px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: $header-text;
+    display: table-cell;
+    top: -78px;
+    left: 54%;
+    position: relative;
+    margin: 0;
+  }
+
+  .nav {
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
+    padding: 0;
+    position: relative;
+    left: -4px;
+
+    ul {
+      list-style: none;
+      position: relative;
+      left: 4%;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      width: 56px;
+      border-top-left-radius: $border-radius;
+      border-top-right-radius: $border-radius;
+      border-radius: 20px;
+      p {
+        font-size: 1rem;
+        color: white;
+      }
+
+    }
+      #home-nav {
+        background-color: green;
+        // border-right: 2px solid rgba(0,0,0,1);
+      }
+      #about-nav {
+        background-color: $nav-background;
+        // border-right: 2px solid rgba(0,0,0,1);
+      }
+      #photos-nav {
+        background-color: $nav-background;
+        // border-right: 2px solid rgba(0,0,0,1);
+      }
+      #contact-nav {
+        background-color: $nav-background;
+      }
+
+  }
+  .content-wrapper {
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin: 0px 0px 50px 0px;
+    background-color: rgba(68,207,108,1);
+    position: relative;
+    border-radius: 20px;
+    box-shadow: $box-shadow-bottom;
+    -webkit-box-shadow: $box-shadow-bottom;
+    -moz-box-shadow: $box-shadow-bottom;
+
+    img {
+      display: inline-block;
+      width: 40%;
+      height: 400px;
+      margin: 0px 0px 50px 0px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      float: left;
+    }
+
+  .content-text {
+      display: inline-block;
+      height: 400px;
+      margin: 0px 0px 50px 0px;
+      // padding: 10px 10px 10px 10px;
+      float: right;
+      padding: 5px 5px 5px 5px;
+  }
+
+      h2 {
+        position: relative;
+        display: inline-block;
+        width: 700px;
+        color: $content-text;
+        font-family: 'IM Fell French Canon', serif;
+      }
+
+      p {
+        font-size: $font-size-standard;
+        position: relative;
+        top: 40px;
+        color: $content-text;
+      }
+  }
+
+  .home-content {
+    width: 60%;
+    height: 400px;
+    position: relative;
+    float: right;
+    margin: 0px 0px 50px 0px;
+  }
+
+  .about-content {
+    width: 60%;
+    height: 400px;
+    position: relative;
+    float: right;
+    margin: 0px 0px 50px 0px;
+    display: none;
+  }
+
+  .photos-content {
+    width: 60%;
+    height: 400px;
+    position: relative;
+    float: right;
+    margin: 0px 0px 50px 0px;
+    display: none;
+  }
+
+  .contact-content {
+    width: 60%;
+    height: 400px;
+    position: relative;
+    float: right;
+    margin: 0px 0px 50px 0px;
+    display: none;
+
+      #user_name, #user_email, #user_telephone, #event_date, #event_type, #event_size, #user_request {
+        width: 400px;
+        display: block;
+      }
+  }
+
+}
+
+//
+// @media (min-width: $device-laptop) {
+//   .wrapper {
+//     display: block;
+//     width: $wrapper-laptop;
+//   }
+// }
