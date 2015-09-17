@@ -23,6 +23,10 @@ Insert something about this project, who it was for why I did it, etc...
 - HTML
 - CSS
 - Javascript
+- Angular.js
+- Node.js
+- Express.js
+- D3.js
 
 ## Live Website
 
